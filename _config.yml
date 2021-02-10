@@ -1,0 +1,33 @@
+name: URL Shortener
+
+title: URL Shortener
+description: URL Shortener
+
+version: v0.1
+
+baseurl: ""
+permalink: /:slug/
+
+plugins:
+  - jekyll-redirect-from
+
+collections:
+  urls:
+    output: true
+    permalink: /:slug
+
+whitelist:
+  - jekyll-redirect-from
+
+redirect_from:
+  json: false
+
+include:
+  - _urls
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
