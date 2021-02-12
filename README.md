@@ -158,6 +158,10 @@ Find appropriate emojis to copy from https://www.emojicopy.com
 * jekyll-redirect-from: https://github.com/jekyll/jekyll-redirect-from
 * GitHub Pages: https://pages.github.com
 
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](LICENSE) file for details
+
 ## Credits
 
 - [hlaueriksson](https://github.com/hlaueriksson)/[jekyll-url-shortener](https://github.com/hlaueriksson/jekyll-url-shortener) - Inspired and based upon 
