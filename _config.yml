@@ -3,10 +3,13 @@ name: URL Shortener
 title: URL Shortener
 description: Create short URLs that can be easily shared, tweeted, or emailed to friends.
 
-version: v0.1
+version: v0.2
 
 baseurl: ""
 permalink: /:slug/
+logo: /assets/logo.png
+
+theme: jekyll-theme-minimal
 
 plugins:
   - jekyll-redirect-from
